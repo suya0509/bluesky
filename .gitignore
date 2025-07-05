@@ -1,0 +1,24 @@
+# node_modules는 용량 크고, 설치하면 다시 생김
+node_modules/
+
+# 환경 변수 파일 (비밀 키 등 포함됨)
+.env
+
+# 운영체제/IDE 설정 파일
+.DS_Store
+.vscode/
+.idea/
+
+# 로그파일
+*.log
+
+# React Native 관련
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcodeproj
+
+# 테스트 캐시
+coverage/
